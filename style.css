@@ -1,0 +1,160 @@
+/* ===== PAGE ===== */
+
+body {
+    background-color: #FAFBF9;
+    color: #29332D;
+    margin: 0;
+}
+
+
+/* ===== EN-TÊTE ===== */
+
+header {
+    background-color: #EDF4EC;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    color: #356B4C;
+}
+
+
+/* ===== MENU DE NAVIGATION ===== */
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    color: #356B4C;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #789B72;
+}
+
+/* ===== BANNIERE PRINCIPALE ===== */
+
+#banniere {
+    background-color: #F4F7F1;
+    text-align: center;
+    padding: 50px 20px;   
+}
+
+#banniere h2 {
+    color: #356B4C;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+#banniere p {
+    color: #29332D;
+    font-size: 18px;
+}
+
+/* ===== ACTUALITÉS ===== */
+
+#actualites {
+    padding : 40px;
+}
+
+.liste-actualites {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.carte-actualite {
+    flex: 1;
+    padding: 20px;
+    min-width: 0;
+    background-color: #FFFFFF;
+    border: 1px solid #D9E2DA;
+    border-radius: 8px
+}
+/* ===== IMAGE DES ACTUALITES ===== */
+
+.image-actualite {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 15px;
+}
+
+.contenu-actualite {
+    padding: 20px;
+}
+
+/* ===== CONTENU DES CARTES ACTUALITES ===== */
+
+.contenu-atualite{
+    padding: 5px;
+}
+
+.date-actualite{
+    font-size: 14px;
+    color: #789B72;
+    margin-bottom: 8px;
+}
+
+.contenu-actualite h3 {
+    color: #356B4C;
+    margin-top: 0;
+}
+
+.lien-actualite {
+    color: #356B4C;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.lien-actualite:hover {
+    text-decoration: underline
+}
+
+/* ===== EVENEMENTS =====*/
+
+#evenements {
+    padding: 40px;
+}
+
+.carte-evenements {
+    background-color: #EDF4EC;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #D9E2DA
+}
+
+.carte-evenements h3 {
+    color: #A63D68
+}
+
+.carte-evenements a {
+    color: #356B4C;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.carte evenements a:hover {
+    text-decoration: underline;
+}
+.date-evenements {
+    color: #789B72;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.image-evenement {
+    width: 160px;
+    height: auto;
+    border-radius: 6px;
+}
+
