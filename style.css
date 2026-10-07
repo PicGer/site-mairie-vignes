@@ -362,3 +362,64 @@ footer {
     text-align: center;
     font-size: 14px;
 }
+
+/* ===== RESPONSIVE TELEPHONE =====*/
+
+@media (max-width: 768px) {
+
+    .liste-actualites {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .carte-actualite {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .liste-acces {
+        flex-direction: column;
+    }
+
+    .carte-acces {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .carte-evenements {
+    flex-direction: column;
+    }
+
+    .image-evenement {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    align-self: center;
+    }
+
+    .presentation-commune {
+    flex-direction: column;
+    align-items: stretch;
+    }
+
+    .image-commune {
+    width: 100%;
+    height: auto;
+    }
+
+    .texte-commune {
+    width: 100%;
+    }
+    
+    .bloc-signalement {
+    flex-direction: column;
+    align-items: flex-start;
+    }
+
+    .bouton-signalement {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    }
+}
+
