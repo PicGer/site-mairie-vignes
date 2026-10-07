@@ -127,6 +127,8 @@ nav a:hover {
 }
 
 .carte-evenements {
+    display: flex;
+    gap: 25px;
     background-color: #EDF4EC;
     padding: 25px;
     border-radius: 8px;
@@ -158,3 +160,205 @@ nav a:hover {
     border-radius: 6px;
 }
 
+/* ===== ACCES RAPIDE =====*/
+
+#acces-rapides {
+    padding: 40px;
+}
+
+.liste-acces {
+    display: flex;
+    gap: 20px;
+}
+
+.carte-acces {
+    flex: 1;
+    padding: 20px;
+    background-color: #EDF4EC;
+    border: 1px solid #D9E2DA;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #29332D;
+    text-align: center;
+}
+.carte-acces h3 {
+    color:#356B4C;
+    margin-top: 0;
+}
+
+.carte-acces:hover {
+    background-color: #DDEBDD;
+}
+
+/* ===== METEO ===== */
+
+#meteo {
+    padding: 40px;
+}
+
+.carte-meteo {
+    background-color: #EDF4EC;
+    border: 1px solid #D9E2DA;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+.carte-meteo h3 {
+    color: #356B4C;
+    margin-top: 0;
+}
+
+.temperature {
+    font-size: 32px;
+    font-weight: bold;
+    color: #356B4C;
+    margin: 10px 0;
+}
+
+/* ===== NOTRE COMMUNE =====*/
+
+#commune {
+    padding: 40px;
+}
+
+.presentation-commune {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.image-commune {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.texte-commune h3 {
+    color: #356B4C;
+    margin-top: 0;
+}
+
+.lien-commune {
+    color: #356B4C;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.lien-commune:hover {
+    text-decoration: underline;
+}
+
+/* ===== DERNIERS DOCUMENS =====*/
+
+#documents {
+    padding: 40px;
+}
+
+.liste-documents {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.documents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #EDF4EC;
+    border: 1px solid #D9E2DA;
+    border-radius: 8px;
+    color: #29332D;
+    text-decoration: none;
+}
+
+.documents strong {
+    color: #356B4C
+}
+
+.documents span {
+    color: #789B72
+}
+
+.documents:hover {
+    background-color: #DDEBDD;
+} 
+/* ===== UN PROBLEME =====*/
+
+/* ===== SIGNALEMENT ===== */
+
+#signalement {
+    padding: 40px;
+}
+
+.bloc-signalement {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    background-color: #356B4C;
+    border-radius: 8px;
+}
+
+.texte-signalement h2 {
+    color: #FFFFFF;
+    margin-top: 0;
+}
+
+.texte-signalement p {
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.bouton-signalement {
+    padding: 12px 20px;
+    background-color: #C7D63A;
+    color: #29332D;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+    white-space: nowrap;
+}
+
+/* ===== PIED DE PAGE =====*/
+
+footer {
+    background-color: #DDEBDD;
+    color: #29332D;
+    padding: 40px;
+}
+
+.contenu-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.coordonnees-footer h3,
+.liens-footer h3 {
+    color: #29332D;
+    margin-top: 0;
+}
+
+.coordonees-footer p {
+    margin : 8px 0;
+}
+
+.liens-footer a {
+    color: #29332D;
+    text-decoration: none;
+}
+
+.liens-footer a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    margin-top: 30px;
+    padding-top: 20px;
+    background-color: #DDEBDD;
+    border-top: 1px solid;
+    text-align: center;
+    font-size: 14px;
+}
