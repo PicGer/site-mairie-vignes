@@ -10,7 +10,7 @@ body {
 /* ===== EN-TÊTE ===== */
 
 header {
-    background-color: #EDF4EC;
+    background-color: #e7f8e5;
     padding: 30px;
     text-align: center;
 }
@@ -365,7 +365,7 @@ footer {
 
 /* ===== RESPONSIVE TELEPHONE =====*/
 
-@media (max-width: 768px) {
+@media screen and (max-width: 600px) {
 
     .liste-actualites {
         flex-direction: column;
@@ -420,6 +420,89 @@ footer {
     width: 100%;
     box-sizing: border-box;
     text-align: center;
+    }
+    /* ===== MENU TELEPHONE ===== */
+
+    header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px 20px;
+    padding: 0;
+    margin: 20px 0 0;
+    list-style: none;
+    }
+
+    header nav li {
+    text-align: center;
+    }
+
+    /* ===== ESPACEMENT TELEPHONE =====*/
+
+    header {
+        padding: 25px 15px;
+    }
+
+    #accueil {
+        padding: 40px 20px;
+    }
+
+    #actualite {
+        padding:25px 20px;
+    }
+
+    /* ===== ESPACEMENT DES SECTIONS ===== */
+
+    #evenements,
+    #acces-rapides,
+    #meteo,
+    #commune,
+    #documents,
+    #signalement {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
+    /* ===== VERSION TABLETTE =====*/
+
+    @media screen and (min-width: 601px) and (max-width: 1024px) {
+
+        .liste-actualites {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .carte-actualite {
+            flex: 0 1 calc(50% - 10px);
+            box-sizing: border-box;
+            min-width: 0;
+        }
+
+        .carte-evenements {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+    }
+
+    .image-evenement {
+        width: 160px;
+        height: auto;
+        flex-shrink: 0;
+    }
+
+    .contenu-evenement {
+        flex: 1;
+        min-width: 0;
+    }
+
+    /* ===== ACCÈS RAPIDE TABLETTE ===== */
+
+    .liste-acces {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
     }
 }
 
