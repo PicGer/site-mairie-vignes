@@ -95,7 +95,7 @@ nav a:hover {
 
 /* ===== CONTENU DES CARTES ACTUALITES ===== */
 
-.contenu-atualite{
+.contenu-actualite{
     padding: 5px;
 }
 
@@ -504,5 +504,85 @@ footer {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
+
+}
+    /* ===== PAGE MENTIONS LEGALES =====*/
+
+    .liens-footer a {
+    display: block;
+    margin-bottom: 10px;
+    }
+
+#mentions-legales {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
 }
 
+#mentions-legales h2 {
+    color: #356B4C;
+    margin-bottom: 25px;
+}
+
+#mentions-legales h3 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+#mentions-legales address {
+    font-style: normal;
+    line-height: 1.8;
+}
+
+/* ===== PAGE POLITIQUE DE CONFIDENTIALITÉ ===== */
+
+#politique-confidentialite {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+}
+
+#politique-confidentialite h2 {
+    color: #356B4C;
+    margin-bottom: 25px;
+}
+
+#politique-confidentialite h3 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+#politique-confidentialite address {
+    font-style: normal;
+    line-height: 1.8;
+}
+/* ===== PAGE PLAN DU SITE ===== */
+
+#plan-du-site {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+}
+
+#plan-du-site h2 {
+    color: #356B4C;
+    margin-bottom: 25px;
+}
+
+#plan-du-site h3 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+#plan-du-site li {
+    margin-bottom: 10px;
+}
+
+#plan-du-site a {
+    color: #356B4C;
+    text-decoration: none;
+}
+
+#plan-du-site a:hover {
+    text-decoration: underline;
+}
